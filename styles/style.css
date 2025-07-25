@@ -112,27 +112,43 @@
     grid-template-columns: repeat(4,1fr);
     justify-content: center;
     gap: 20px;
-  
-    
+
 }
 /*flower plants*/
+
 .flower-plants{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 250px;
+    margin-top: 220px;
 }
 .child-images img{
-    width:400px ;
+    width:360px ;
 }
 .parent-images{
     position: relative;
 }
 .child-images{ 
     position: absolute;
-    left: 300px;
+    left: 350px;
     top: -160px;
 }
+
+.plants h2{
+    font-size: 50px;
+    font-weight: 700;
+    font-family:serif;
+}
+.plants ul li{
+    font-size: 22px;
+    font-weight: 400;
+    color: rgb(146, 145, 145) ;
+}
+
+
+
+
+
 
 
 
@@ -156,8 +172,24 @@
     .hero-container{
         flex-direction: column-reverse;
     }
+    .hero-img img{
+        margin-top: -200px;
+    }
+    .hero-title{
+        font-size: 40px;
+    }
+    .hero-description{
+        font-size: 20px;
+    }
+    .top-heading{
+        margin-top: 100px;
+        font-size: 40px;
+    }
     .card-container{
         grid-template-columns: repeat(2,1fr);
+    }
+     .card-description{
+        font-size: 20px;
     }
     .card-container button{
         padding: 10px 20px;
@@ -165,8 +197,16 @@
 
 
     }
-
-
+    .flower-plants{
+        flex-direction: column;
+        margin-top: 150px;
+    }
+    .child-images img{
+        display: none;
+    }
+    .parent-images img{
+        max-width: 400px;
+    }
 
 
 }
