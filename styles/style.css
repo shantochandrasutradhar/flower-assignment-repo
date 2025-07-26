@@ -1,14 +1,12 @@
 
 .body{
-    font-family: sans-serif;
-   
+    font-family: sans-serif; 
 }
 
 /* navigatiion styles*/
 
 .margin{
-    margin: 20px 200px;
-    
+    margin: 20px 200px; 
 }
 .nav-container{
     display: flex;
@@ -55,7 +53,6 @@
     color: rgb(146, 145, 145);
 }
 
-
 /*card heading style*/
 .top-heading{
     font-size: 55px;
@@ -65,7 +62,6 @@
 }
 .top-heading span{
     color: #E95A08;
-  
 }
 
 .card-description{
@@ -79,7 +75,6 @@
 /* card style start*/
 
 .card{
-   
     margin-top: 40px;
 }
 .card img{
@@ -93,8 +88,7 @@
     font-size:30px;
     font-weight: 700;
     text-align: center;
-    color: #5b5b5c;
-      
+    color: #5b5b5c;   
 }
 .card button{
     width: 100%;
@@ -112,8 +106,8 @@
     grid-template-columns: repeat(4,1fr);
     justify-content: center;
     gap: 20px;
-
 }
+
 /*flower plants*/
 
 .flower-plants{
@@ -146,23 +140,63 @@
 }
 
 
+/*deals section style*/
+
+.deals-container{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+   justify-content: space-evenly;
+    margin-top: 140px;
+}
+
+.deals-parent{
+    position: relative;
+}
+.deals-child{
+    position: absolute;
+    font-size: 20px;
+    color: aliceblue;
+    text-align: center;
+    left:70px;
+    top: 60px;
+}
+.deals-parent img{
+    width: 367px;
+    height: 201px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+.deals-child a{
+    color: aliceblue;
+    font-weight: 600;
+}
+.deal-parent{
+    position: relative;
+  
+}
+.deal-child{
+    position: absolute;
+    font-size: 35px;
+    color: aliceblue;
+    text-align: center;
+    left:180px;
+    top: 100px;
+}
+.deal-parent img{
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+.deal-child a{
+    color: aliceblue;
+    font-weight: 600;
+}
 
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
+/*input section style*/
 
 .background{
     background-image:url("../assets/news-letter-bg.png");
@@ -198,15 +232,13 @@
 }
 
 
-
 /*footer section*/
 .footer{
     display: flex;
 }
 .footer{
     margin: 50px 200px;
-    justify-content: space-between;
-    
+    justify-content: space-between;  
 }
 .logos h3{
     font-size: 25px;
@@ -239,14 +271,12 @@
 .footer-link2 li a{
     text-decoration: none;
     color: rgb(130, 132, 132);
-  
 }
 .icon ul li{
     list-style: none;
 }
 .icon{
-    display: flex;
-    
+    display: flex; 
 }
 
 
@@ -254,13 +284,7 @@
 
 
 
-
-
-
-
-
-
-/*Responsice Design*/
+/*responsice resign*/
 
 @media screen  and (max-width:576px){
     
@@ -298,8 +322,6 @@
     .card-container button{
         padding: 10px 20px;
         font-size: 16px;
-
-
     }
     .flower-plants{
         flex-direction: column;
@@ -311,6 +333,58 @@
     .parent-images img{
         max-width: 400px;
     }
+    
+    .footer-link ul li{
+        font-size: 18px;
+    }
+    .footer-link2 ul li{
+        font-size: 18px;
+    }
+
+
+
+    .deals-container{
+        flex-direction: column;
+    }
+    .deal-parent img{
+        width: 400px;
+    }
+    .deal-parent h3{
+        font-size: 25px;
+    }
+    .deal-parent a{
+        font-size: 20px;
+    }
+    .deal-child{
+    position: absolute;
+    font-size: 35px;
+    color: aliceblue;
+    text-align: center;
+    left:90px;
+    top: 60px;
+    }
+
+
+    .background{
+        width:100%;
+    }
+    .main-content input{
+        width: 100%;
+        font-size: 13px;
+    }
+     .main-content button{
+        font-size: 13px;
+    }
+
+    .footer{
+        flex-direction: column;
+        margin: 0px;
+    }
+
+
+
+
+
 
 
 }
