@@ -124,8 +124,11 @@
 }
 .child-images{ 
     position: absolute;
-    left: 350px;
-    top: -160px;
+    left: 320px;
+    top: -200px;
+}
+.parent-images img{
+    width: 600px;
 }
 
 .plants h2{
@@ -194,15 +197,13 @@
 
 
 
-
-
 /*input section style*/
 
 .background{
     background-image:url("../assets/news-letter-bg.png");
-    /*background-repeat:;*/
-    background-position: center;
-    height: 533px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 540px;
 }
 .background h2{
     color: aliceblue;
@@ -356,24 +357,41 @@
         font-size: 20px;
     }
     .deal-child{
-    position: absolute;
-    font-size: 35px;
-    color: aliceblue;
-    text-align: center;
-    left:90px;
-    top: 60px;
+        position: absolute;
+        font-size: 35px;
+        color: aliceblue;
+        text-align: center;
+        left:90px;
+        top: 60px;
     }
 
-
-    .background{
-        width:100%;
+    .background {
+        position: relative;
+        background-size: 396px 220px;
+        height: 300px;
     }
+    .background h2{
+        font-size: 30px;
+        color: rgb(255, 255, 255);
+        position: absolute;
+        left:52px;
+        top: -150px;
+    }
+    .main-content{
+       position: absolute;
+       top: 120px;
+       left: 40px;
+      
+    }
+
     .main-content input{
-        width: 100%;
-        font-size: 13px;
+        width: 160px;
+        font-size: 10px;
+        
     }
      .main-content button{
-        font-size: 13px;
+        font-size: 10px;
+       
     }
 
     .footer{
