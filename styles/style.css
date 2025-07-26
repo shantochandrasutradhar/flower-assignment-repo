@@ -85,7 +85,6 @@
 .card img{
     width: 100%;
 }
-
 .card-title{
     text-align: center;
     color: #808081;
@@ -162,13 +161,13 @@
 
 
 
+
+
+
 .background{
     background-image:url("../assets/news-letter-bg.png");
-    background-repeat:no-repeat;
-    /*background-position: center;*/
-  
-
-   
+    /*background-repeat:;*/
+    background-position: center;
     height: 533px;
 }
 .background h2{
@@ -201,17 +200,54 @@
 
 
 /*footer section*/
-.main{
+.footer{
     display: flex;
 }
-.icon{
-    display: inline-block;
-    margin-right: 20px;
+.footer{
+    margin: 50px 200px;
+    justify-content: space-between;
+    
 }
-
-
-
-
+.logos h3{
+    font-size: 25px;
+   font-weight: 300;
+    color: rgb(126, 126, 126);
+}
+.logos{
+    margin-right: 70px; 
+}
+.footer-link{
+    margin-right: 70px;
+}
+.footer-link2{
+    margin-right: 70px;
+}
+.footer-link li{
+    list-style: none;
+    margin-bottom: 40px;
+    font-size: 22px;
+}
+.footer-link li a{
+    text-decoration: none;
+    color: rgb(130, 132, 132);
+}
+.footer-link2 li{
+    list-style: none;
+    margin-bottom: 40px;
+    font-size: 22px;
+}
+.footer-link2 li a{
+    text-decoration: none;
+    color: rgb(130, 132, 132);
+  
+}
+.icon ul li{
+    list-style: none;
+}
+.icon{
+    display: flex;
+    
+}
 
 
 
