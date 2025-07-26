@@ -1,12 +1,13 @@
 
 .body{
-    font-family: sans-serif; 
+    font-family: sans-serif;
+   
 }
 
 /* navigatiion styles*/
 
 .margin{
-    margin: 20px 250px;
+    margin: 20px 200px;
     
 }
 .nav-container{
@@ -135,7 +136,7 @@
 }
 
 .plants h2{
-    font-size: 50px;
+    font-size: 55px;
     font-weight: 700;
     font-family:serif;
 }
@@ -144,6 +145,73 @@
     font-weight: 400;
     color: rgb(146, 145, 145) ;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.background{
+    background-image:url("../assets/news-letter-bg.png");
+    background-repeat:no-repeat;
+    /*background-position: center;*/
+  
+
+   
+    height: 533px;
+}
+.background h2{
+    color: aliceblue;
+    font-size: 60px;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 200px;
+    font-family: serif;
+}
+.main-content input{
+    width: 500px;
+    padding: 12px 20px;
+    font-size: 20px;
+    border: none;
+}
+.main-content button{
+    background-color: #E95A08;
+    color: aliceblue;
+    padding: 12px 40px;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+}
+.main-content{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+/*footer section*/
+.main{
+    display: flex;
+}
+.icon{
+    display: inline-block;
+    margin-right: 20px;
+}
+
+
+
+
 
 
 
